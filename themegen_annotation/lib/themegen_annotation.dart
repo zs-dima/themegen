@@ -5,11 +5,11 @@ const themegen = ThemeGen();
 class ThemeGen {
   const ThemeGen({
     this.title,
-    this.extensions = const {},
+    this.styles = const {},
   });
 
   final String? title;
-  final Set<Type> extensions;
+  final Set<Type> styles;
 }
 
 class ThemeGenExtension {
